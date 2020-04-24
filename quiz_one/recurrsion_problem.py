@@ -5,8 +5,6 @@ def compute_sum(n):
         f = compute_sum(n-1) #an operation that tells the number entered to decrease by one each time
         return n+f #as the number is decreasing, that number will be added to the previous number
 
-print(compute_sum(5)) #will print out the result of 5 + 4 + 3 + 2 + 1
+# print(compute_sum(5)) #will print out the result of 5 + 4 + 3 + 2 + 1
 
 
-def compute_sum_2(n):
-    
